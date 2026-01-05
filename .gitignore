@@ -1,0 +1,8 @@
+node_modules
+.env
+dist
+server/node_modules
+server/dist
+server/kg_db
+server/package-lock.json
+server/package.json

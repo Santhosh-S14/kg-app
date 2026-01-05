@@ -1,0 +1,13 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: kg
+    ports:
+      - "5432:5432"
+    volumes:
+      - kg_db:/var/lib/postgresql/data
+volumes:
+  kg_db:
