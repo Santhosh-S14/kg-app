@@ -6,3 +6,7 @@ server/dist
 server/kg_db
 server/package-lock.json
 server/package.json
+
+web/node_modules
+web/package-lock.json
+web/package.json
